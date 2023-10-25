@@ -21,7 +21,6 @@ package main
 import (
 	"bufio"
 	"fmt"
-	"io"
 	"os"
 	"strings"
 )
@@ -64,11 +63,4 @@ func main() {
 	fmt.Printf("You entered %v lines\n", numLines)
 	fmt.Printf("You entered %v commands\n", numCommands)
 
-	source := strings.NewReader("hello world")
-	buffered := bufio.NewReader(source)
-
-	newString, err := buffered.ReadString('\n')
-	if err == io.EOF {
-		fmt.Println(newString)
-	}
 }
