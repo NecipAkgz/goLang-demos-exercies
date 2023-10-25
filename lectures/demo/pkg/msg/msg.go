@@ -1,6 +1,6 @@
 package msg
 
-import "coursecontent/demo/pkg/display"
+import "goLearning/lectures/demo/pkg/display"
 
 func Hi() {
 	display.Display("Hi")

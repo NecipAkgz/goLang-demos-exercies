@@ -2,8 +2,8 @@
 package main
 
 import (
-	"coursecontent/demo/pkg/display"
-	"coursecontent/demo/pkg/msg"
+	"goLearning/lectures/demo/pkg/display"
+	"goLearning/lectures/demo/pkg/msg"
 )
 
 func main() {
